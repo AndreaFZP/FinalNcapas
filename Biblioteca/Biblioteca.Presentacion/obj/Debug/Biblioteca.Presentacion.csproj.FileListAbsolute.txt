@@ -9,7 +9,6 @@ C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentac
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\bin\Debug\Biblioteca.Entidades.pdb
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.csproj.AssemblyReference.cache
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.Login.resources
-C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.MDIParent1.resources
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.nuevoLibro.resources
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.Properties.Resources.resources
 C:\Users\Usuario\Documents\N-capas\SistemaBiblio\Biblioteca\Biblioteca.Presentacion\obj\Debug\Biblioteca.Presentacion.csproj.GenerateResource.cache
