@@ -50,6 +50,10 @@ namespace Biblioteca.Presentacion
             this.idiTxt = new System.Windows.Forms.TextBox();
             this.mateTxt = new System.Windows.Forms.TextBox();
             this.btnInsertar = new System.Windows.Forms.Button();
+            this.librosGrid = new System.Windows.Forms.DataGridView();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.librosGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // nBooks
@@ -64,6 +68,10 @@ namespace Biblioteca.Presentacion
             // nbooksTxt
             // 
             this.nbooksTxt.Location = new System.Drawing.Point(224, 52);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.nbooksTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.nbooksTxt.Name = "nbooksTxt";
             this.nbooksTxt.Size = new System.Drawing.Size(100, 22);
             this.nbooksTxt.TabIndex = 1;
@@ -107,7 +115,11 @@ namespace Biblioteca.Presentacion
             // paisLabel
             // 
             this.paisLabel.AutoSize = true;
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.paisLabel.Location = new System.Drawing.Point(410, 188);
+=======
+            this.paisLabel.Location = new System.Drawing.Point(411, 188);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.paisLabel.Name = "paisLabel";
             this.paisLabel.Size = new System.Drawing.Size(39, 17);
             this.paisLabel.TabIndex = 7;
@@ -116,7 +128,11 @@ namespace Biblioteca.Presentacion
             // idiLabel
             // 
             this.idiLabel.AutoSize = true;
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.idiLabel.Location = new System.Drawing.Point(410, 250);
+=======
+            this.idiLabel.Location = new System.Drawing.Point(411, 250);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.idiLabel.Name = "idiLabel";
             this.idiLabel.Size = new System.Drawing.Size(53, 17);
             this.idiLabel.TabIndex = 8;
@@ -125,7 +141,11 @@ namespace Biblioteca.Presentacion
             // neditLabel
             // 
             this.neditLabel.AutoSize = true;
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.neditLabel.Location = new System.Drawing.Point(410, 123);
+=======
+            this.neditLabel.Location = new System.Drawing.Point(411, 123);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.neditLabel.Name = "neditLabel";
             this.neditLabel.Size = new System.Drawing.Size(131, 17);
             this.neditLabel.TabIndex = 9;
@@ -134,7 +154,11 @@ namespace Biblioteca.Presentacion
             // materLabel
             // 
             this.materLabel.AutoSize = true;
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.materLabel.Location = new System.Drawing.Point(410, 315);
+=======
+            this.materLabel.Location = new System.Drawing.Point(411, 315);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.materLabel.Name = "materLabel";
             this.materLabel.Size = new System.Drawing.Size(59, 17);
             this.materLabel.TabIndex = 10;
@@ -143,7 +167,11 @@ namespace Biblioteca.Presentacion
             // yearLabel
             // 
             this.yearLabel.AutoSize = true;
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.yearLabel.Location = new System.Drawing.Point(410, 55);
+=======
+            this.yearLabel.Location = new System.Drawing.Point(411, 55);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.yearLabel.Name = "yearLabel";
             this.yearLabel.Size = new System.Drawing.Size(106, 17);
             this.yearLabel.TabIndex = 11;
@@ -152,6 +180,10 @@ namespace Biblioteca.Presentacion
             // isbnTxt
             // 
             this.isbnTxt.Location = new System.Drawing.Point(139, 123);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.isbnTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.isbnTxt.Name = "isbnTxt";
             this.isbnTxt.Size = new System.Drawing.Size(185, 22);
             this.isbnTxt.TabIndex = 12;
@@ -159,6 +191,10 @@ namespace Biblioteca.Presentacion
             // titleTxt
             // 
             this.titleTxt.Location = new System.Drawing.Point(139, 188);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.titleTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.titleTxt.Name = "titleTxt";
             this.titleTxt.Size = new System.Drawing.Size(185, 22);
             this.titleTxt.TabIndex = 13;
@@ -166,6 +202,10 @@ namespace Biblioteca.Presentacion
             // authTxt
             // 
             this.authTxt.Location = new System.Drawing.Point(139, 250);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.authTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.authTxt.Name = "authTxt";
             this.authTxt.Size = new System.Drawing.Size(185, 22);
             this.authTxt.TabIndex = 14;
@@ -173,13 +213,22 @@ namespace Biblioteca.Presentacion
             // editTxt
             // 
             this.editTxt.Location = new System.Drawing.Point(139, 310);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.editTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.editTxt.Name = "editTxt";
             this.editTxt.Size = new System.Drawing.Size(185, 22);
             this.editTxt.TabIndex = 15;
             // 
             // yearTxt
             // 
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.yearTxt.Location = new System.Drawing.Point(522, 52);
+=======
+            this.yearTxt.Location = new System.Drawing.Point(523, 52);
+            this.yearTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.yearTxt.Name = "yearTxt";
             this.yearTxt.Size = new System.Drawing.Size(100, 22);
             this.yearTxt.TabIndex = 16;
@@ -187,6 +236,10 @@ namespace Biblioteca.Presentacion
             // nediTxt
             // 
             this.nediTxt.Location = new System.Drawing.Point(547, 123);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.nediTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.nediTxt.Name = "nediTxt";
             this.nediTxt.Size = new System.Drawing.Size(75, 22);
             this.nediTxt.TabIndex = 17;
@@ -194,6 +247,10 @@ namespace Biblioteca.Presentacion
             // paisTxt
             // 
             this.paisTxt.Location = new System.Drawing.Point(547, 183);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.paisTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.paisTxt.Name = "paisTxt";
             this.paisTxt.Size = new System.Drawing.Size(100, 22);
             this.paisTxt.TabIndex = 18;
@@ -201,32 +258,93 @@ namespace Biblioteca.Presentacion
             // idiTxt
             // 
             this.idiTxt.Location = new System.Drawing.Point(547, 250);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
+=======
+            this.idiTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.idiTxt.Name = "idiTxt";
             this.idiTxt.Size = new System.Drawing.Size(100, 22);
             this.idiTxt.TabIndex = 19;
             // 
             // mateTxt
             // 
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.mateTxt.Location = new System.Drawing.Point(547, 312);
+=======
+            this.mateTxt.Location = new System.Drawing.Point(547, 313);
+            this.mateTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.mateTxt.Name = "mateTxt";
             this.mateTxt.Size = new System.Drawing.Size(185, 22);
             this.mateTxt.TabIndex = 20;
             // 
             // btnInsertar
             // 
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.btnInsertar.Location = new System.Drawing.Point(334, 376);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(86, 33);
+=======
+            this.btnInsertar.Location = new System.Drawing.Point(340, 359);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnInsertar.Name = "btnInsertar";
+            this.btnInsertar.Size = new System.Drawing.Size(85, 33);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.btnInsertar.TabIndex = 21;
             this.btnInsertar.Text = "Agregar";
             this.btnInsertar.UseVisualStyleBackColor = true;
             this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             // nuevoLibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+=======
+            // librosGrid
+            // 
+            this.librosGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.librosGrid.Location = new System.Drawing.Point(66, 415);
+            this.librosGrid.Name = "librosGrid";
+            this.librosGrid.RowHeadersWidth = 51;
+            this.librosGrid.RowTemplate.Height = 24;
+            this.librosGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.librosGrid.Size = new System.Drawing.Size(666, 150);
+            this.librosGrid.TabIndex = 22;
+            this.librosGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.librosGrid_CellDoubleClick);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(340, 359);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(85, 33);
+            this.btnActualizar.TabIndex = 23;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Location = new System.Drawing.Point(495, 359);
+            this.btnBorrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(85, 33);
+            this.btnBorrar.TabIndex = 24;
+            this.btnBorrar.Text = "Eliminar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
+            // mantenimiento
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 596);
+            this.Controls.Add(this.btnBorrar);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.librosGrid);
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.mateTxt);
             this.Controls.Add(this.idiTxt);
@@ -248,8 +366,16 @@ namespace Biblioteca.Presentacion
             this.Controls.Add(this.isbnLabel);
             this.Controls.Add(this.nbooksTxt);
             this.Controls.Add(this.nBooks);
+<<<<<<< Updated upstream:Biblioteca/Biblioteca.Presentacion/nuevoLibro.Designer.cs
             this.Name = "nuevoLibro";
             this.Text = "nuevoLibro";
+=======
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "mantenimiento";
+            this.Text = "Mantenimiento";
+            this.Load += new System.EventHandler(this.mantenimiento_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.librosGrid)).EndInit();
+>>>>>>> Stashed changes:Biblioteca.Presentacion/mantenimiento.Designer.cs
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +404,8 @@ namespace Biblioteca.Presentacion
         private System.Windows.Forms.TextBox idiTxt;
         private System.Windows.Forms.TextBox mateTxt;
         private System.Windows.Forms.Button btnInsertar;
+        private System.Windows.Forms.DataGridView librosGrid;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }

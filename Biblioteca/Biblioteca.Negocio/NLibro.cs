@@ -57,5 +57,12 @@ namespace Biblioteca.Negocio
             DLibro Datos = new DLibro();
             return Datos.Eliminar(id);
         }
+
+        //Listar libros
+        public static DataTable Listar()
+        {
+            DLibro Datos = new DLibro();
+            return Datos.Listar();
+        }
     }
 }
