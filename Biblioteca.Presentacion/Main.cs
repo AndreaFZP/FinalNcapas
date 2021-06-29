@@ -116,12 +116,45 @@ namespace Biblioteca.Presentacion
 
         private void mantenimientoToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            
+            mantenimiento mnt = new mantenimiento();
+            mnt.MdiParent = this;
+            mnt.Show();
+
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void devolucionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Devolucion dvl = new Devolucion();
+            dvl.MdiParent = this;
+            dvl.Show();
+
+        }
+
+
+        private void prestamoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            prestamo prt = new prestamo();
+            prt.MdiParent = this;
+            prt.Show();
+
+        }
+
+        private void reportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reportes rpt = new Reportes();
+            rpt.MdiParent = this;
+            rpt.Show();
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

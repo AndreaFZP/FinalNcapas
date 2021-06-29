@@ -52,7 +52,6 @@ namespace Biblioteca.Presentacion
             this.devolucionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.devolucionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.prestamoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -179,7 +178,7 @@ namespace Biblioteca.Presentacion
             this.indexToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("indexToolStripMenuItem.Image")));
             this.indexToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
@@ -206,13 +205,13 @@ namespace Biblioteca.Presentacion
             this.devolucionToolStripMenuItem.Name = "devolucionToolStripMenuItem";
             this.devolucionToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.devolucionToolStripMenuItem.Text = "&Devolucion";
+            this.devolucionToolStripMenuItem.Click += new System.EventHandler(this.devolucionToolStripMenuItem_Click);
             // 
             // menuStrip
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.devolucionToolStripMenuItem,
             this.mantenimientoToolStripMenuItem,
-            this.devolucionToolStripMenuItem1,
             this.prestamoToolStripMenuItem,
             this.reportesToolStripMenuItem,
             this.windowsMenu,
@@ -234,29 +233,26 @@ namespace Biblioteca.Presentacion
             this.mantenimientoToolStripMenuItem.Text = "&Mantenimiento";
             this.mantenimientoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoToolStripMenuItem_Click_1);
             // 
-            // devolucionToolStripMenuItem1
-            // 
-            this.devolucionToolStripMenuItem1.Name = "devolucionToolStripMenuItem1";
-            this.devolucionToolStripMenuItem1.Size = new System.Drawing.Size(79, 20);
-            this.devolucionToolStripMenuItem1.Text = "&Devolucion";
-            // 
             // prestamoToolStripMenuItem
             // 
             this.prestamoToolStripMenuItem.Name = "prestamoToolStripMenuItem";
             this.prestamoToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.prestamoToolStripMenuItem.Text = "&Prestamo";
+            this.prestamoToolStripMenuItem.Click += new System.EventHandler(this.prestamoToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "&Reportes";
+            this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // toolStrip
             // 
@@ -323,7 +319,6 @@ namespace Biblioteca.Presentacion
         private System.Windows.Forms.ToolStripMenuItem devolucionToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem devolucionToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem prestamoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
